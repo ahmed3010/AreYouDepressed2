@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">هل انت مكتئب؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="start">ابدأ</string>
+    <string name="question_1">السؤال الأول :</string>
+    <string name="question_2">السؤال الثانى :</string>
+    <string name="question_3">السؤال الثالث :</string>
+    <string name="question_4">السؤال الرايع :</string>
+    <string name="question_5">السؤال الخامس :</string>
+    <string name="question_6">السؤال السادس :</string>
+    <string name="question_7">السؤال السابع :</string>
+    <string name="question_8">السؤال الثامن :</string>
+    <string name="question_9">السؤال التاسع :</string>
+    <string name="question_10">السؤال العاشر :</string>
+    <string name="question_11">السؤال الحادى عشر :</string>
+    <string name="question_12">السؤال الثانى عشر :</string>
+    <string name="question_13">السؤال الثالث عشر :</string>
+    <string name="question_14">السؤال الرابع عشر :</string>
+    <string name="question_15">السؤال الخامس عشر :</string>
+    <string name="question_16">السؤال السادس عشر :</string>
+    <string name="question1">هل تشعر بأنك حزين معظم الوقت؟</string>
+    <string name="question2">هل فقدت الإهتمام بالاشياء الممتعه فى حياتك؟</string>
+    <string name="question3">هل تشعر دائماً بالإرهاق و الخمول و تكافح لتحقق مهامك اليوميه؟</string>
+    <string name="question4">هل تشعر بالصعوبة لتجد الحافز لتفعل اى شيئ حتى الخروج مع الأصدقاء او تنفيذ المهام؟</string>
+    <string name="question5">هل تشعر دائماً بالقلق حول ابسط الأشياء في الحياة؟</string>
+    <string name="question6">هل لديك أفكار سلبية ومشاعر الغضب تجول احياناً في عقلك؟</string>
+    <string name="question7">هل تشعر بعدم الارتياح، وتعكر المزاج، وغالبا ما تنفجر في الناس الأقرب إليك؟</string>
+    <string name="question8">هل من الصعب عليك أن تغفو أو تظل نائما - بغض النظر عن مدى تعبك؟</string>
+    <string name="question9">هل من الصعب عيك التركيز على أي شيء وأنك أكثر نسياناً من أي وقت مضى؟</string>
+    <string name="question10">هل لديك صداع، وآلام الظهر، وآلام المفاصل وغيرها من الأمراض الجسدية و  لا يمكنك ان تشير على المشكلة ولا تستجيب للعلاجات العادية؟</string>
+    <string name="question11">هل تشعر فى بعض الأيام أنك حزين أو مذنب حول أشياء لم تفعلها؟</string>
+    <string name="question12">هل تشعر بالوحدة حتى عندما تكون هناك غرفة مليئة بالناس من حولك واحيانا تقلق أن لا أحد يحبك حقا؟</string>
+    <string name="question13">هل لديك مشاكل مع وزنك و بدأت تشعر بأنك مدفون بحياتك الخاصة؟</string>
+    <string name="question14">هل شعرت بهلاوس سمعية أو بصرية؟</string>
+    <string name="question15">هل فكرت او حاولت ان تؤذى نفسك او تنتحر؟</string>
+    <string name="depression">الإكتئاب</string>
+    <string name="d_description">الاكتئاب (اضطراب اكتئابي كبير) هو مرض طبي شائع وخطير يؤثر سلبا على شعورك، والطريقة التي تفكر بها وكيف تتصرف. لحسن الحظ، فإنه قابل للعلاج. ويسبب الاكتئاب مشاعر الحزن و/ أو فقدان الاهتمام بالأنشطة التي كنت تستمتع  بها من قبل . ويمكن أن يؤدي إلى مجموعة متنوعة من المشاكل العاطفية والجسدية ويمكن أن يقلل من قدرة الشخص على الاداء  في العمل والمنزل.</string>
+    <string name="submit">اعرض</string>
+    <string name="answer">من فضلك اجب على جميع الاسئلة</string>
+    <string name="severe">إكتئاب حاد</string>
+    <string name="moderate">إكتئاب معتدل</string>
+    <string name="not">انت لست مكتئب</string>
+    <string name="mild">إكتئاب خفيف</string>
+    <string name="language">اللغة</string>
+</resources>

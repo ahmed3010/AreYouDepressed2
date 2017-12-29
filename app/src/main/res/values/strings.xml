@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Are you depressed</string>
+    <string name="question1">Do you feel sad most of the time?</string>
+    <string name="question2">Did you lose interest in most of the enjoyable things for you?</string>
+    <string name="question3">Are you always tired, always have low energy and you always struggle to accomplish everything on your daily <b>"to do"</b> list?</string>
+    <string name="question4">Is it hard to find the motivation to do anything  including going out with friends or completing tasks?</string>
+    <string name="question5">Do you feel anxious and worried about little things in life?</string>
+    <string name="question6">Do you have negative thoughts and feelings of anger often playing themselves in your mind?</string>
+    <string name="question7">Do you feel restless, irritable and often lash out at the people who are closest to you?</string>
+    <string name="question8">Can it be difficult to fall asleep or stay asleep – regardless of how tired you may be?</string>
+    <string name="question9">Do you find it\'s hard to concentrate on anything and you are more forgetful than ever?</string>
+    <string name="question10">Do you have headaches, backaches, joint pain and other physical ailments that you can’t pin-point the problem and don’t respond to regular treatments?</string>
+    <string name="question11">Do you feel Some days that you are sad or guilty about the things you haven’t done?</string>
+    <string name="question12">Do you feel lonely even when there is a room full of people around you and often worry that no one really likes you?</string>
+    <string name="question13">Have you problems with your weight and you are starting to feel overwhelmed by your own life?</string>
+    <string name="question14">Do you have auditory or visual hallucinations ?</string>
+    <string name="question15">Did you think of or tried to hurt yourself or commit suicide ?</string>
+    <string name="depression">Depression</string>
+    <string name="d_description">Depression (major depressive disorder) is a common and serious medical illness that negatively affects how you feel, the way you think and how you act. Fortunately, it is also treatable. Depression causes feelings of sadness and/or a loss of interest in activities once enjoyed. It can lead to a variety of emotional and physical problems and can decrease a person’s ability to function at work and at home.</string>
+    <string name="start">Start</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="question_1">Question 1 :</string>
+    <string name="question_2">Question 2 :</string>
+    <string name="question_3">Question 3 :</string>
+    <string name="question_4">Question 4 :</string>
+    <string name="question_5">Question 5 :</string>
+    <string name="question_6">Question 6 :</string>
+    <string name="question_7">Question 7 :</string>
+    <string name="question_8">Question 8 :</string>
+    <string name="question_9">Question 9 :</string>
+    <string name="question_10">Question 10 :</string>
+    <string name="question_11">Question 11 :</string>
+    <string name="question_12">Question 12 :</string>
+    <string name="question_13">Question 13 :</string>
+    <string name="question_14">Question 14 :</string>
+    <string name="question_15">Question 15 :</string>
+    <string name="question_16">Question 16 :</string>
+    <string name="severe">severe depression</string>
+    <string name="submit">Submit</string>
+    <string name="answer">Please answer all the questions</string>
+    <string name="moderate">Moderate depression</string>
+    <string name="not">You aren\'t depressed </string>
+    <string name="mild">Mild depression</string>
+    <string name="language">Language</string>
+    <string name="mild_depression"><b>Mild depression</b> involves more than just feeling blue temporarily. Your symptoms can go on for days and are noticeable enough to interfere with your usual activities.
+    \n<b>Mild depression</b> may cause:</string>
+    <string name="moderate_depression"><b>moderate depression</b> is the next level up from mild cases. Moderate and mild depression share similar symptoms. Additionally, <b>moderate depression</b> may cause:</string>
+    <string name="severe_depression"><b>Severe (major) depression</b> is classified as having the symptoms of mild to moderate depression, but the symptoms are severe and noticeable, even to your loved ones.
+
+Episodes of <b>major depression</b> last an average of six months or longer. Sometimes <b>severe depression</b> can go away after a while, but it can also be recurrent for some people.
+
+        Diagnosis is especially crucial in <b>severe depression</b>, and it may even be time-sensitive.
+
+        <b>/nMajor forms of depression</b> may also cause:</string>
+
+    <string name="mild_causes">
+        <![CDATA[
+    <p><b>Mild depression :</b></p>
+    <ul>
+    <li> irritability or anger </li>
+    <li> hopelessness</li>
+    <li> feelings of guilt and despair</li>
+    <li> self-loathing</li>
+    <li> a loss of interest in activities you once enjoyed</li>
+    <li> difficulties concentrating at work</li>
+    <li> a lack of motivation</li>
+    <li> a sudden disinterest in socializing</li>
+    <li> aches and pains with seemingly no direct cause</li>
+    <li> daytime sleepiness and fatigue</li>
+    <li> insomnia</li>
+    <li> appetite changes</li>
+    <li> weight changes</li>
+    </ul>
+    ]]>
+
+</string>
+    <string name="moderate_causes">
+        <![CDATA[
+<p><b>Moderate depression :</b></p>
+<ul>
+<li> problems with self-esteem</li>
+<li> reduced productivity</li>
+<li> feelings of worthlessness</li>
+<li> increased sensitivities</li>
+<li> excessive worrying</li>
+</ul>
+]]>
+    </string>
+    <string name="severe_causes">
+        <![CDATA[
+        <p><b>Severe depression :</b></p>
+        <ul>
+<li> delusions</li>
+<li> feelings of stupor</li>
+<li> hallucinations</li>
+<li> suicidal thoughts or behaviors</li>
+</ul>
+]]>
+</string>
+</resources>
