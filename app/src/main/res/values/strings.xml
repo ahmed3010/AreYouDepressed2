@@ -43,59 +43,8 @@
     <string name="not">You aren\'t depressed </string>
     <string name="mild">Mild depression</string>
     <string name="language">Language</string>
-    <string name="mild_depression"><b>Mild depression</b> involves more than just feeling blue temporarily. Your symptoms can go on for days and are noticeable enough to interfere with your usual activities.
-    \n<b>Mild depression</b> may cause:</string>
-    <string name="moderate_depression"><b>moderate depression</b> is the next level up from mild cases. Moderate and mild depression share similar symptoms. Additionally, <b>moderate depression</b> may cause:</string>
-    <string name="severe_depression"><b>Severe (major) depression</b> is classified as having the symptoms of mild to moderate depression, but the symptoms are severe and noticeable, even to your loved ones.
-
-Episodes of <b>major depression</b> last an average of six months or longer. Sometimes <b>severe depression</b> can go away after a while, but it can also be recurrent for some people.
-
-        Diagnosis is especially crucial in <b>severe depression</b>, and it may even be time-sensitive.
-
-        <b>/nMajor forms of depression</b> may also cause:</string>
-
-    <string name="mild_causes">
-        <![CDATA[
-    <p><b>Mild depression :</b></p>
-    <ul>
-    <li> irritability or anger </li>
-    <li> hopelessness</li>
-    <li> feelings of guilt and despair</li>
-    <li> self-loathing</li>
-    <li> a loss of interest in activities you once enjoyed</li>
-    <li> difficulties concentrating at work</li>
-    <li> a lack of motivation</li>
-    <li> a sudden disinterest in socializing</li>
-    <li> aches and pains with seemingly no direct cause</li>
-    <li> daytime sleepiness and fatigue</li>
-    <li> insomnia</li>
-    <li> appetite changes</li>
-    <li> weight changes</li>
-    </ul>
-    ]]>
-
-</string>
-    <string name="moderate_causes">
-        <![CDATA[
-<p><b>Moderate depression :</b></p>
-<ul>
-<li> problems with self-esteem</li>
-<li> reduced productivity</li>
-<li> feelings of worthlessness</li>
-<li> increased sensitivities</li>
-<li> excessive worrying</li>
-</ul>
-]]>
-    </string>
-    <string name="severe_causes">
-        <![CDATA[
-        <p><b>Severe depression :</b></p>
-        <ul>
-<li> delusions</li>
-<li> feelings of stupor</li>
-<li> hallucinations</li>
-<li> suicidal thoughts or behaviors</li>
-</ul>
-]]>
-</string>
+    <string name="test">I\'m ready to take the Quiz</string>
+    <string name="are_you_ready">Are you ready to take the Quiz !?</string>
+    <string name="english">English</string>
+    <string name="arabic">العربية</string>
 </resources>

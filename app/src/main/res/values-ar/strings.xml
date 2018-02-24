@@ -44,4 +44,6 @@
     <string name="not">انت لست مكتئب</string>
     <string name="mild">إكتئاب خفيف</string>
     <string name="language">اللغة</string>
+    <string name="test">انا جاهز للإختبار</string>
+    <string name="are_you_ready">هل أنت جاهز للإختبار !؟</string>
 </resources>

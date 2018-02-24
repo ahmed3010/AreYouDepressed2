@@ -1,12 +1,15 @@
 package com.shohayeb.areyoudepressed;
 
+import android.annotation.TargetApi;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.CheckBox;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.ScrollView;
@@ -17,8 +20,8 @@ import java.util.Locale;
 public class MainActivity extends AppCompatActivity {
     private static final String FILE_NAME = "file_lang"; // preference file name
     private static final String KEY_LANG = "key_lang"; // preference key
+    private final String ARTICLE_SCROLL_POSITION = "Position";
     private Integer id;
-    private final String ARTICLE_SCROLL_POSITION ="Position";
     private ScrollView mScrollView;
 
     @Override
@@ -27,8 +30,10 @@ public class MainActivity extends AppCompatActivity {
         loadLanguage();
         setContentView(R.layout.activity_main);
         mScrollView = findViewById(R.id.scroll);
+        checkLang();
         id = R.layout.activity_main;
     }
+
 
     @Override
     protected void onSaveInstanceState(Bundle outState) {
@@ -39,28 +44,49 @@ public class MainActivity extends AppCompatActivity {
                     new int[]{mScrollView.getScrollX(), mScrollView.getScrollY()});
         }
         super.onSaveInstanceState(outState);
-
     }
 
     @Override
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
         id = savedInstanceState.getInt("id");
         setContentView(id);
-        super.onRestoreInstanceState(savedInstanceState);
         if (id == R.layout.queations2) {
-//            mScrollView=findViewById(R.id.scroll);
             final int[] position = savedInstanceState.getIntArray(ARTICLE_SCROLL_POSITION);
+            mScrollView = findViewById(R.id.scroll);
             if (position != null)
                 mScrollView.post(() -> mScrollView.scrollTo(position[0], position[1]));
         }
     }
 
-    public void start(View view) {
-        setContentView(R.layout.questions);
-        id = R.layout.questions;
+    @Override
+    public void onBackPressed() {
+        switch (id) {
+            case R.layout.activity_main:
+                finish();
+                break;
+            case R.layout.questions:
+                setContentView(R.layout.activity_main);
+                id = R.layout.activity_main;
+                break;
+            case R.layout.queations2:
+                setContentView(R.layout.questions);
+                id = R.layout.questions;
+                break;
+        }
     }
 
-    public void submit(View view) {
+    public void start(View view) {
+        CheckBox checkBox = findViewById(R.id.ready);
+        if (checkBox.isChecked()) {
+            setContentView(R.layout.questions);
+            id = R.layout.questions;
+        } else {
+            Toast.makeText(MainActivity.this, getResources().getString(R.string.are_you_ready), Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    public void submitFinal(View view) {
         int answered = calculateAnsweredQuestions2();
         int score = calculateScore2();
         if (answered != 12) {
@@ -77,7 +103,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void submit1(View view) {
+    public void submit(View view) {
+        id = R.layout.queations2;
 
         int score = calculateScore();
         int answered = calculateAnsweredQuestions();
@@ -210,6 +237,7 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences.Editor editor = preferences.edit();
         editor.putString(KEY_LANG, lang);
         editor.apply();
+
 //        setTitle(getResources().getString(R.string.app_name));
         // we have saved
         // recreate activity after saving to load the new language, this is the same
@@ -256,5 +284,26 @@ public class MainActivity extends AppCompatActivity {
                 break;
         }
         return true;
+    }
+
+    public void checkLang() {
+        if (getLangCode().equalsIgnoreCase("ar"))
+            forceRTLIfSupported();
+        else
+            forceLTRIfSupported();
+    }
+
+    @TargetApi(Build.VERSION_CODES.JELLY_BEAN_MR1)
+    private void forceLTRIfSupported() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
+            getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
+        }
+    }
+
+    @TargetApi(Build.VERSION_CODES.JELLY_BEAN_MR1)
+    private void forceRTLIfSupported() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
+            getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+        }
     }
 }

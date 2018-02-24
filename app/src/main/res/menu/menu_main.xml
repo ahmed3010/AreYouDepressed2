@@ -8,12 +8,12 @@
             <item
                 android:id="@+id/action_english"
                 android:icon="@drawable/english"
-                android:title="English" />
+                android:title="@string/english" />
 
             <item
                 android:id="@+id/action_arabic"
                 android:icon="@drawable/unnamed"
-                android:title="العربية" />
+                android:title="@string/arabic" />
         </menu>
     </item>
 
